@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Menu Viewer</string>
+    <string name="title_activity_maps">Consultar Ubicación</string>
+</resources>

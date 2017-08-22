@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cartavirtual.upb.menuviewer.MenuPlatosActivity">
+
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textEntrada"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="casual"
+                    android:onClick="LanzarEntradas"
+                    android:text="ENTRADAS"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageEntradas"
+                    android:layout_width="match_parent"
+                    android:layout_height="256dp"
+                    android:onClick="LanzarEntradas"
+                    app:srcCompat="@drawable/mariscada" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textPlatosFuertes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="casual"
+                    android:onClick="LanzarPlatosFuertes"
+                    android:text="PLATOS FUERTES"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imagePlatosFuertes"
+                    android:layout_width="match_parent"
+                    android:layout_height="256dp"
+                    android:onClick="LanzarPlatosFuertes"
+                    app:srcCompat="@drawable/burrito" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textBebidas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="casual"
+                    android:onClick="LanzarBebidas"
+                    android:text="BEBIDAS"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageBebidas"
+                    android:layout_width="match_parent"
+                    android:layout_height="256dp"
+                    android:onClick="LanzarBebidas"
+                    app:srcCompat="@drawable/horchata" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

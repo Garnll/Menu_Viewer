@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cartavirtual.upb.menuviewer.BebidasActivity">
+
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/linearHorchata"
+                    android:layout_width="190dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textHorchata"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Horchata"
+                        android:textColor="@android:color/holo_orange_dark"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:id="@+id/iBhorchata"
+                        android:layout_width="match_parent"
+                        android:layout_height="237dp"
+                        android:adjustViewBounds="true"
+                        android:cropToPadding="false"
+                        android:elevation="0dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/horchata" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textDescripcion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Descripción: Bebida refrescante de agua, azucar y arroz."
+                        android:textSize="18sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:id="@+id/textPrecio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Precio: 4.000 COP"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textTiempo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Tiempo espera: 3 mins"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="190dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textAguaDeTamarindo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Agua De Tamarindo"
+                        android:textColor="@android:color/holo_orange_dark"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:id="@+id/ibaguaDeTamarindo"
+                        android:layout_width="match_parent"
+                        android:layout_height="237dp"
+                        android:adjustViewBounds="true"
+                        android:cropToPadding="false"
+                        android:elevation="0dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/aguadetamarindo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textDescripcion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Descripción: Extracto de tamarindo en agua y azucar."
+                        android:textSize="18sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:id="@+id/textPrecio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Precio: 5.000 COP"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textTiempo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Tiempo espera: 3 mins"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="190dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textAguaDeJamaica"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Agua de Jamaica"
+                        android:textColor="@android:color/holo_orange_dark"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:id="@+id/ibaguaDeJamaica"
+                        android:layout_width="match_parent"
+                        android:layout_height="237dp"
+                        android:adjustViewBounds="true"
+                        android:cropToPadding="false"
+                        android:elevation="0dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/aguadejamaica" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textDescripcion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Descripción:  Extracto de flor de jamaica en agua y azucar."
+                        android:textSize="18sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:id="@+id/textPrecio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Precio: 5.000 COP"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textTiempo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Tiempo espera: 3 mins "
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="190dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textCervezaSol"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Cerveza Sol"
+                        android:textColor="@android:color/holo_orange_dark"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:id="@+id/iBcervezaSol"
+                        android:layout_width="match_parent"
+                        android:layout_height="237dp"
+                        android:adjustViewBounds="true"
+                        android:cropToPadding="false"
+                        android:elevation="0dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/cervezasol" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textDescripcion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Descripción: La clásica cerveza méxicana Sol."
+                        android:textSize="18sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:id="@+id/textPrecio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Precio: 9.000 COP"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textTiempo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Tiempo espera: 3 mins"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="190dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textCervezaCorona"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Cerveza Corona"
+                        android:textColor="@android:color/holo_orange_dark"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:id="@+id/iBcervezaCorona"
+                        android:layout_width="match_parent"
+                        android:layout_height="237dp"
+                        android:adjustViewBounds="true"
+                        android:cropToPadding="false"
+                        android:elevation="0dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/cervezacorona" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textDescripcion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Descripción:  La clásica cerveza mexicana"
+                        android:textSize="18sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:id="@+id/textPrecio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Precio:  9.300 COP"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textTiempo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Tiempo espera: 3 mins"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

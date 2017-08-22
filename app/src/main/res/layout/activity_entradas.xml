@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cartavirtual.upb.menuviewer.EntradasActivity">
+
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/linearTotopos"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textTotopo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Totopos"
+                        android:textColor="@android:color/holo_orange_dark"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:id="@+id/iBtotopo"
+                        android:layout_width="match_parent"
+                        android:layout_height="198dp"
+                        android:adjustViewBounds="true"
+                        android:cropToPadding="false"
+                        android:elevation="0dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/totopos" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textDescripcion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Descripción: Con chile con carnem sour cream y guacamole."
+                        android:textSize="18sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:id="@+id/textPrecio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Precio: 7.500 COP"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textTiempo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Tiempo espera: 5-7 mins "
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="190dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textNachos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Nachos"
+                        android:textColor="@android:color/holo_orange_dark"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:id="@+id/iBnachos"
+                        android:layout_width="match_parent"
+                        android:layout_height="237dp"
+                        android:adjustViewBounds="true"
+                        android:cropToPadding="false"
+                        android:elevation="0dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/nachos" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textDescripcion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Descripción:  Con queso fundido, chile con carne, frijol refrito y guacamole."
+                        android:textSize="18sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:id="@+id/textPrecio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Precio: 8.500 COP"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textTiempo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Tiempo espera: 7 mins"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="190dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textChilaquiles"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Chilaquiles"
+                        android:textColor="@android:color/holo_orange_dark"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:id="@+id/iBchilaquiles"
+                        android:layout_width="match_parent"
+                        android:layout_height="237dp"
+                        android:adjustViewBounds="true"
+                        android:cropToPadding="false"
+                        android:elevation="0dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/chilaquiles" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textDescripcion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Descripción: Totopos con pollo desmechado, queso fundido, en salsa roja y crema."
+                        android:textSize="18sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:id="@+id/textPrecio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Precio: 9.500 COP"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textTiempo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Tiempo espera: 7 mins"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="190dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textMariscada"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Mariscada"
+                        android:textColor="@android:color/holo_orange_dark"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:id="@+id/iBmariscada"
+                        android:layout_width="match_parent"
+                        android:layout_height="237dp"
+                        android:adjustViewBounds="true"
+                        android:cropToPadding="false"
+                        android:elevation="0dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/mariscada" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textDescripcion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Descripción: Mariscos"
+                        android:textSize="18sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:id="@+id/textPrecio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Precio: 9.000 COP"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textTiempo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Tiempo espera: 8 mins"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="190dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textQuesadillas"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Quesadillas"
+                        android:textColor="@android:color/holo_orange_dark"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:id="@+id/iBquesadillas"
+                        android:layout_width="match_parent"
+                        android:layout_height="237dp"
+                        android:adjustViewBounds="true"
+                        android:cropToPadding="false"
+                        android:elevation="0dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/quesadillas" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textDescripcion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Descripción: Tortillas con queso, pollo, cebolla caramelizada y pimentón"
+                        android:textSize="18sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:id="@+id/textPrecio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Precio: 22.900 COP"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textTiempo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Tiempo espera: 20 mins"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
